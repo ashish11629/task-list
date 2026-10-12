@@ -1,0 +1,17 @@
+<!-- index.html -->
+<div class="wrap">
+  <div class="addrow">
+    <input id="title" placeholder="Add a task…" />
+    <select id="status">
+      <option value="todo">todo</option>
+      <option value="in-progress">in-progress</option>
+      <option value="done">done</option>
+    </select>
+    <button id="add">Add</button>
+  </div>
+  <div id="chips"></div>
+  <ul id="list"></ul>
+</div>
+
+<!-- load the COMPILED js, as a module so it can import model.js -->
+<script type="module" src="app.js"></script>

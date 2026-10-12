@@ -1,0 +1,7 @@
+/* styles.css */
+.wrap { max-width: 600px; margin: 0 auto; padding: 16px; }
+.addrow { display: flex; gap: 8px; }
+#add { background: #7c5cff; color: #fff; border: none;
+       border-radius: 9px; padding: 9px 16px; cursor: pointer; }
+li.task { display: flex; align-items: center; gap: 9px;
+          border: 1px solid #e2e6f0; border-radius: 11px; padding: 10px; }
